@@ -2,7 +2,7 @@
 
 Dear Diary is a modern and minimalistic responsive mobile diary app built with Flutter. It allows users to securely log their thoughts, rate their days, and attach images — all stored using Firebase services. The app supports both email/password and Google Sign-In authentication methods, dark/light mode toggling, and offers rich features like image upload, search, and filtering by mood.
 
-## Video
+## Video Demo
 <a href="https://www.youtube.com/watch?v=hyzMhzjlwRg" target="_blank">
   <img src="https://github.com/user-attachments/assets/eb95cb5a-b4fe-428f-af29-52eb64ec26e2" 
        alt="Click to watch demo video" width="300" height="600"/>
