@@ -1,6 +1,13 @@
 # Dear Diary
 
-Dear Diary is a modern and minimalistic mobile diary app built with Flutter. It allows users to securely log their thoughts, rate their days, and attach images — all stored using Firebase services. The app supports both email/password and Google Sign-In authentication methods, dark/light mode toggling, and offers rich features like image upload, search, and filtering by mood.
+Dear Diary is a modern and minimalistic responsive mobile diary app built with Flutter. It allows users to securely log their thoughts, rate their days, and attach images — all stored using Firebase services. The app supports both email/password and Google Sign-In authentication methods, dark/light mode toggling, and offers rich features like image upload, search, and filtering by mood.
+
+## Video
+<a href="https://www.youtube.com/watch?v=hyzMhzjlwRg" target="_blank">
+  <img src="https://github.com/user-attachments/assets/eb95cb5a-b4fe-428f-af29-52eb64ec26e2" 
+       alt="Click to watch demo video" width="300" height="600"/>
+</a>
+
 
 ## Features
 
@@ -22,20 +29,88 @@ Dear Diary is a modern and minimalistic mobile diary app built with Flutter. It 
   - Search diary entries by keywords
   - Filter by rating to track mood patterns
 
+- 📱 **Responsive Design**
+  - Optimized for different screen sizes and orientations
+
 - ☁️ **Firebase Integration**
   - Firebase Auth for user login
   - Firebase Firestore for entry storage
-  - Firebase Storage for image hosting
+  - Stores uploaded images using Firebase Storage
 
-## 📸 Screenshots
-
-| Login Page | Diary List | New Entry | View Entry |
-|------------|------------|-----------|------------|
-| ![](screenshots/login.png) | ![](screenshots/list.png) | ![](screenshots/new-entry.png) | ![](screenshots/view-entry.png) |
-
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repo**
    ```bash
    git clone https://github.com/yourusername/dear-diary-app.git
    cd dear-diary-app
+   ```
+
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+   
+3. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+##  Project Structure 
+
+```
+├── main.dart                           # Entry point of the app and initial routing
+├── firebase_options.dart               # Firebase project configuration
+
+├── models/
+│   ├── diary_entry_model.dart          # Data model for diary entries
+
+├── services/
+│   ├── auth_service.dart               # Firebase authentication (email/password + Google Sign-In)
+│   ├── diary_entry_service.dart        # CRUD operations for Firestore
+│   ├── storage_service.dart            # Handles image uploads to Firebase Storage
+
+├── views/
+│   ├── login_view.dart                 # User login screen
+│   ├── signup_view.dart                # New user registration screen
+│   ├── forgot_password_view.dart       # Password reset UI
+│   ├── diary_list_view.dart            # Main screen displaying diary entries
+│   ├── add_edit_diary_entry_view.dart  # Screen for adding or editing diary entries
+
+├── widgets/
+│   ├── diary_entry_card.dart           # Widget to display individual diary entries
+
+├── providers/
+│   ├── theme_provider.dart             # Manages light/dark mode theme switching
+``` 
+
+## Dependencies
+
+**🔐 Authentication**
+- firebase_auth
+- firebase_ui_auth
+- firebase_ui_oauth_google
+- google_sign_in
+
+**📄 Data & Storage**
+- cloud_firestore
+- firebase_storage
+- shared_preferences
+- path_provider
+
+**🖼️ Media Handling**
+- image_picker
+- file_picker
+
+**🧠 State Management**
+- provider
+
+**🌐 Utilities**
+- firebase_core
+- intl
+- uuid
+
+##  License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+
