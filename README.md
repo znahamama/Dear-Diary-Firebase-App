@@ -1,16 +1,41 @@
-# deardiary_img
+# Dear Diary
 
-A new Flutter project.
+Dear Diary is a modern and minimalistic mobile diary app built with Flutter. It allows users to securely log their thoughts, rate their days, and attach images — all stored using Firebase services. The app supports both email/password and Google Sign-In authentication methods, dark/light mode toggling, and offers rich features like image upload, search, and filtering by mood.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- 🔐 **User Authentication**
+  - Sign up / Login using **Email & Password**
+  - Login using **Google Sign-In**
+  - **Forgot Password** functionality
 
-A few resources to get you started if this is your first Flutter project:
+- 📅 **Diary Entries**
+  - Create, edit, and delete entries
+  - Add a **daily rating (1–5 stars)**
+  - Attach **multiple images** to each entry
+  - Organize entries by **date**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🌗 **Dark Mode**
+  - Toggle between light and dark themes with a switch
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🔍 **Search & Filter**
+  - Search diary entries by keywords
+  - Filter by rating to track mood patterns
+
+- ☁️ **Firebase Integration**
+  - Firebase Auth for user login
+  - Firebase Firestore for entry storage
+  - Firebase Storage for image hosting
+
+## 📸 Screenshots
+
+| Login Page | Diary List | New Entry | View Entry |
+|------------|------------|-----------|------------|
+| ![](screenshots/login.png) | ![](screenshots/list.png) | ![](screenshots/new-entry.png) | ![](screenshots/view-entry.png) |
+
+## 🚀 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/dear-diary-app.git
+   cd dear-diary-app
