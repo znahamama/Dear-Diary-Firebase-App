@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "299395216236",
+    "project_id": "deardiary-ae52b",
+    "storage_bucket": "deardiary-ae52b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299395216236:android:b92e1aef800c455312f949",
+        "android_client_info": {
+          "package_name": "com.example.deardiary_img"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299395216236-1sodjcgr1h34egohgv1rdd8v5gna6rs5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2MpuQArb_ndHYRvcknPTo7zTORCvsNqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299395216236-1sodjcgr1h34egohgv1rdd8v5gna6rs5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "299395216236-kbog7fb0q0rnd071iirm0id3k58o2qfd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yourdomain.deardiaryFirebase"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299395216236:android:4958d2158316bb9212f949",
+        "android_client_info": {
+          "package_name": "com.yourdomain.deardiary_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299395216236-kpf6k6ei0oep0ib08fucnmkvubfgv498.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yourdomain.deardiary_firebase",
+            "certificate_hash": "353a933bc9683176b86dce5615a39bf0a45ee102"
+          }
+        },
+        {
+          "client_id": "299395216236-1sodjcgr1h34egohgv1rdd8v5gna6rs5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2MpuQArb_ndHYRvcknPTo7zTORCvsNqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299395216236-1sodjcgr1h34egohgv1rdd8v5gna6rs5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "299395216236-kbog7fb0q0rnd071iirm0id3k58o2qfd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yourdomain.deardiaryFirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
